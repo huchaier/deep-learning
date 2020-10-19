@@ -1,0 +1,1 @@
+python train.py -a=net13 -m=mt+ -o=adam -b=60 --dataset=cifar10 --gpu=0 --lr=0.0025 --boundary=0 --epochs=120

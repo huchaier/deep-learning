@@ -1,0 +1,1 @@
+python train.py -a=net13 -m=mt -o=adam -b=100 --dataset=cifar10 --gpu=0 --lr=0.003 --boundary=0 --epochs=200 --resume='./checkpoint/cifar10_4000_net13_mt_adam_e120/net130_latest.pth.tar'
